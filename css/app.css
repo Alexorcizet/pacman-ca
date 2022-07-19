@@ -1,0 +1,41 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+/* .formLine {
+  margin:10px;
+  padding:10px;
+  background-color: cornflowerblue;
+} */
+
+.modal h2 {
+  color: black;
+}
+.modal {
+  display: none;
+  text-align: center;
+  width: 425px;
+  height: 80px;
+  background-color: rgb(192, 178, 157);
+}
+
+.facing-up {
+  transform: rotate(270deg);
+}
+.facing-down {
+  transform: rotate(90deg);
+}
+.facing-left {
+  transform: rotate(180deg);
+}
+.facing-right {
+  transform: rotate(0deg);
+}
